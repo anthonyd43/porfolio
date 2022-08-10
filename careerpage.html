@@ -15,7 +15,7 @@
   </head>
   <body class="bg-darkBlue">
     <!-- NavBar -->
-    <nav class="p-6 bg-black top-0 sticky">
+    <nav class="sticky p-2 bg-black top-0 ">
       <div class="flex items-center justify-between">
         <!-- Logo -->
         <div class="p-2">
@@ -67,9 +67,11 @@
       <div
         class="container flex flex-col-reverse md:flex-row items-center px-6 pt-2 mx-auto mt-10 space-y-0 md:space-y-0"
       >
+
         <!-- Left Side -->
         <div class="flex flex-col mb-32 space-y-8 md:w-1/2 items-center">
           <h2 class="text-5xl text-greyIsh">Anthony Diep</h2>
+
           <!-- Image -->
           <div
             class="rounded-full"
@@ -81,33 +83,216 @@
               background-position: top;
             "
           ></div>
+
           <!-- Description -->
           <p class="max-w-sm text-center leading-7 text-greyIsh">
             University of California, Irvine<br />Computer Science Major<br />Specialized
             in Software and Systems
           </p>
         </div>
+
         <!-- Right Side -->
-        <div class="flex flex-col mb-32 space-y-12 md:w-1/2 items-center"></div>
-      </div>
-    </section>
-    <!-- Projects Section -->
-    <section id="projects">
-      <div
-        class="container flex flex-col-reverse md:flex-row items-center px-6 pt-2 mx-auto mt-10 space-y-0 md:space-y-0"
-      >
-        <h1 class="text-3xl text-greyIsh">Projects</h1>
-        <p class="text-greyIsh max-w-sm">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum
-          adipisci odit deserunt ipsam cumque cupiditate consequuntur a
-          blanditiis! Odit officia perferendis minima quasi itaque beatae.
-          Perspiciatis praesentium minus beatae aliquid.
-        </p>
+        <div class="flex flex-col mb-32 space-y-8 md:w-1/2 items-center">
+
+        
+        </div>
       </div>
     </section>
 
+  
+    <!-- Projects Section -->
+    <section id="projects">
+      <h1 class="text-center text-3xl text-greyIsh">Projects</h1>
+
+      <div
+        class="container flex flex-col md:flex-row items-center px-6 pt-2 mx-auto mt-10 space-y-0 max-w-screen-lg md:space-y-0"
+      >
+        <!-- Left Side -->
+        
+        <div class="flex flex-col space-y-8 px-3 md:w-1/2 items-center">
+          <!-- Project 1 -->
+          <div id="project1"
+            class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700  transition"
+          >
+            <!-- Image -->
+            <div class="max-h-52">
+              <img
+                class="rounded-t-lg"
+                src="/images/spotifyHandTrackImage.png"
+                alt=""
+                
+              />
+            </div>
+            <div class="p-5">
+              <!-- Project Title -->
+              <a href="#">
+                <h5
+                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+                >
+                  HandTracking Spotify Web App
+                </h5>
+              </a>
+              <!-- Project Description -->
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                This Web App allows you to control your Spotify Web Player
+                functions using hand gestures.<br><br><br>
+              </p>
+              <!-- Logos -->
+              <div
+                class="container flex flex-row p-5 mx-auto space-x-8 items-center justify-center"
+              >
+                <div class="container flex flex-col mx-auto items-center">
+                  <img src="/images/jsLogo2.png" alt="" class="max-h-14"/>
+                  <h2 class="text-sm text-greyIsh">JavaScript</h2>
+                </div>
+                <div class="container flex flex-col mx-auto items-center">
+                  <img src="/images/angularLogo1.png" alt=""  class="max-h-14"/>
+                  <h2 class="text-sm text-greyIsh">Angular</h2>
+                </div>
+                <div class="container flex flex-col mx-auto items-center">
+                  <img src="/images/cssLogo2.png" alt="" class="max-h-14" />
+                  <h2 class="text-sm text-greyIsh">CSS</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Project 2 -->
+          <div id="project2"
+            class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700  transition"
+          >
+            <!-- Image -->
+            <a href="#">
+              <img
+                class="rounded-t-lg"
+                src="/images/embeddedAlarmClockImage.jpg"
+                alt=""
+                
+              />
+            </a>
+            <div class="p-5">
+              <!-- Project Title -->
+              <a href="#">
+                <h5
+                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+                >
+                  Embedded Digital Alarm Clock
+                </h5>
+              </a>
+              <!-- Project Description -->
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                This embedded system was built around the ATMega32 microcontroller using key components that allow the system to provide Alarm Clock functionalities.
+              </p>
+              <div
+                class="container flex flex-row p-5 mx-auto space-x-8 items-center justify-center"
+              >
+              <div class="container flex flex-col mx-auto items-center">
+                <img src="/images/cLogo1.png" alt=""  class="max-h-14"/>
+                <h2 class="text-sm text-greyIsh">C Language</h2>
+              </div>
+              <div class="container flex flex-col mx-auto items-center">
+                <img src="/images/mchpLogo.png" alt=""  class="max-h-14"/>
+                <h2 class="text-sm text-greyIsh">Microchip Studio</h2>
+              </div>              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Side -->
+        <div class="flex flex-col space-y-8 py-7 px-3 md:w-1/2 items-start ">
+          <!-- Project 3 -->
+          <div id="project3"
+            class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700  transition"
+          >
+            <!-- Image -->
+            <a href="#">
+              <img
+                class="rounded-t-lg"
+                src="/images/cruxCompilerInterpreter.jpg"
+                alt=""
+              />
+            </a>
+            <div class="p-5">
+              <!-- Project Title -->
+              <a href="#">
+                <h5
+                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+                >
+                  Crux Compiler/Interpreter
+                </h5>
+              </a>
+              <!-- Project Description -->
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                A compiler/interpreter for a programming language called Crux. Translates lines of Crux into executable x86-64 assembly code.<br>
+                <br>
+              </p>
+              <div
+                class="container flex flex-row p-5 mx-auto space-x-8 items-center justify-center"
+              >
+              <div class="container flex flex-col mx-auto items-center">
+                <img src="/images/javaLogo.png" alt=""  class="max-h-14"/>
+                <h2 class="text-sm text-greyIsh">Java</h2>
+              </div>    
+              <div class="container flex flex-col mx-auto items-center">
+                <img src="/images/antlrLogo.png" alt=""  class="max-h-14"/>
+                <h2 class="text-sm text-greyIsh">ANTLR</h2>
+              </div>    
+              <div class="container flex flex-col mx-auto items-center">
+                <img src="/images/mavenLogo.png" alt=""  class="max-h-14"/>
+                <h2 class="text-sm text-greyIsh">Maven</h2>
+              </div>    
+              </div>
+            </div>
+          </div>   
+          <!-- Project 4 -->
+          <div id="project4"
+            class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700  transition"
+          >
+            <!-- Image -->
+            <a href="#">
+              <img
+                class="rounded-t-lg"
+                src="/images/workInProgress.jpg"
+                alt=""
+              />
+            </a>
+            <div class="p-5">
+              <!-- Project Title -->
+              <a href="#">
+                <h5
+                  class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+                >
+                  WORK IN PROGRESS
+                </h5>
+              </a>
+              <!-- Project Description -->
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 text-center">
+                ...
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+              </p>
+              <div
+                class="container flex flex-row p-5 mx-auto space-x-8 items-center justify-center"
+              >
+              <div class="container flex flex-col mx-auto items-center">
+                <img src="/images/loading-load.gif" alt=""  class="max-h-14"/>
+                <h2 class="text-sm text-greyIsh">Work In Progress</h2>
+              </div> 
+              </div>
+            </div>
+          </div>  
+        </div>
+      </div>
+
+      </div>
+    </section>
+
+
     <!-- Skills Section -->
-    <section id="skills">
+    <section id="skills" class="hidden">
       <div
         class="container flex flex-col-reverse md:flex-row items-center px-6 pt-2 mx-auto mt-10 space-y-0 md:space-y-0"
       >
@@ -120,8 +305,10 @@
         </p>
       </div>
     </section>
+
+
     <!-- Contact Section -->
-    <section id="contact">
+    <section id="contact" class="hidden">
       <div
         class="container flex flex-col-reverse md:flex-row items-center px-6 pt-2 mx-auto mt-10 space-y-0 md:space-y-0"
       >

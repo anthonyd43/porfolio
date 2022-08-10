@@ -40,6 +40,19 @@ h1 {
   white-space: nowrap;
 }
 
+.wip {
+  position: absolute;
+  display: flex;
+  left: 50%;
+  top: 60%;
+  font-size: 1.25rem;
+  color: white;
+  bottom: 10%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  transition: 0.25s;
+}
+
 .btn {
   position: absolute;
   display: flex;
