@@ -9,6 +9,7 @@ module.exports = {
       xl: "1440px",
     },
     extend: {
+      display: ["group-hover"],
       colors: {
         darkBlue: "#222831",
         lightGrey: "#393E46",
