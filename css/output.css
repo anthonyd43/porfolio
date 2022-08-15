@@ -584,10 +584,6 @@ html {
   }
 }
 
-.absolute {
-  position: absolute;
-}
-
 .relative {
   position: relative;
 }
@@ -599,18 +595,6 @@ html {
 
 .top-0 {
   top: 0px;
-}
-
-.top-1\/2 {
-  top: 50%;
-}
-
-.bottom-1\/2 {
-  bottom: 50%;
-}
-
-.z-0 {
-  z-index: 0;
 }
 
 .z-50 {
@@ -652,10 +636,6 @@ html {
 
 .max-h-14 {
   max-height: 3.5rem;
-}
-
-.w-full {
-  width: 100%;
 }
 
 .max-w-sm {
@@ -927,6 +907,23 @@ a {
           animation: bounce 1s infinite;
 }
 
+@-webkit-keyframes pulse {
+  50% {
+    opacity: .5;
+  }
+}
+
+@keyframes pulse {
+  50% {
+    opacity: .5;
+  }
+}
+
+.hover\:animate-pulse:hover {
+  -webkit-animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+          animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
 .hover\:bg-lightGrey:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(57 62 70 / var(--tw-bg-opacity));
@@ -935,19 +932,6 @@ a {
 .hover\:text-winter:hover {
   --tw-text-opacity: 1;
   color: rgb(238 238 238 / var(--tw-text-opacity));
-}
-
-.hover\:blur-sm:hover {
-  --tw-blur: blur(4px);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.group:hover .group-hover\:block {
-  display: block;
-}
-
-.group:hover .group-hover\:inline-block {
-  display: inline-block;
 }
 
 @media (prefers-color-scheme: dark) {
